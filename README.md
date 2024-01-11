@@ -2,18 +2,32 @@
 
 Fractol is a project that explores the world of fractals writen in C.
 
+### Preview
+
+![Mandebrot](./screenshot.jpg)
+
+## Table of Contents
+
+- [Getting Started](#getting-started)
+- [Prerequisites](#prerequisites)
+- [Building](#building)
+- [Running](#running)
+- [Usage](#usage)
+- [Acknowledgments](#Acknowledgments)
+- [License](#license)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine.
 
 ### Prerequisites
 
-```
+Make sure you have the following installed:
+
 - GCC
 - Make
 - OpenGL
 - Appkit
-```
 
 ### Building
 
@@ -28,8 +42,23 @@ make all
 After building the project, you can run it with:
 
 ```sh
-./fractol
+./fractol Mandelbrot
 ```
+
+### Available fractols:
+
+- ❄️ Mandelbrot ️
+- ❄️ Julia (Interactive)
+- ❄️ Burningship ️
+- ❄️ Rabbit ️
+- ❄️ Tricorn ️
+- ❄️ Dragon ️
+
+### Usage
+
+- `spacebar` to toggle options
+- `mouse wheel` to zoom in/ out
+- `+ -` to increase/descrease fractol details
 
 ### Project Structure
 
